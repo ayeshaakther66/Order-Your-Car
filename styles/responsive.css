@@ -1,0 +1,19 @@
+/*
+filenmae: Ayesha Akther
+author: Ayesha Akther
+/* responsive.css */
+/* media query for display: over 570 */
+@media screen and (min-width: 35.625em) {
+    .moto {
+        font-size: 2em;
+
+    }
+    .timetable {
+        margin: 0%; /* to make the timetable below the figure and definition list */
+    }
+    dl {
+        float: left;
+        width: 80%;
+    }
+}
+

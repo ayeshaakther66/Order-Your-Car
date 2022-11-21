@@ -1,0 +1,83 @@
+/*
+filenmae: Ayesha Akther
+author: Ayesha Akther
+last modified: 28 March 2021
+description: motorbike purchase website assign1 (html+css)
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(252, 250, 250, 0.925);
+    margin: 0 ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;  
+    height: auto;
+}
+
+
+/*header, it has the logo and menu list  */
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+     /* styling of menu list */
+.menu {
+    list-style: none;
+    display: inline-block ;
+    margin: 0.3em ;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.2cm;
+    letter-spacing: 0.2em;
+    background-color: rgb(236, 232, 232);
+
+}
+a{ 
+    color: rgb(82, 73, 73);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(165, 146, 146);
+}
+    /* footer styling */
+footer {  
+	width : 100%;
+	position: relative  ;
+	text-align: center;
+    font-size: small;
+    border-top-style: solid;
+    border-color: #8a706b;
+
+
+}
+.section1 {
+    margin: 2% 20%;
+    font: normal normal bold 19px/30px Georgia, serif; 
+    color: rgb(83, 81, 81);
+}
+
+h1 {
+    font: normal normal bold 19px/30px Georgia, serif; /* <h1> font variant, size family set */
+    background-color: rgb(228, 220, 210);
+    margin: 10px 20% ;
+    color: rgb(83, 81, 81);
+    text-align: center;
+}
+th, td, dl, dt, dd {
+    background-color:#8a706b; 
+    color: white;
+    padding-right: 20px ;
+    padding-left: 20px;
+}
+
+
+
+
+

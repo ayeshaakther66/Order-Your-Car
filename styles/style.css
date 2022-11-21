@@ -1,0 +1,190 @@
+/*
+filenmae: Ayesha Akther
+author: Ayesha Akther
+last modified: 28 March 2021
+description: motorbike purchase website assign1 (html+css)
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(252, 250, 250, 0.925);
+    margin: 0 ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;  
+    height: auto;
+}
+
+
+/*header, it has the logo and menu list  */
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+     /* styling of menu list */
+.menu {
+    list-style: none;
+    display: inline-block ;
+    margin: 0.3em ;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.2cm;
+    letter-spacing: 0.2em;
+    background-color: rgb(236, 232, 232);
+
+}
+a{ 
+    color: rgb(82, 73, 73);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(165, 146, 146);
+}
+    /* footer styling */
+footer {  
+	width : 100%;
+	position: relative  ;
+	text-align: center;
+    font-size: small;
+    border-top-style: solid;
+    border-color: #8a706b;
+
+
+}
+      /* index.html  */
+.main {
+    width: 100%;
+}
+
+.moto {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: double;
+    border-color: aliceblue;
+    color: white;
+    font-size: 3em;
+    font-weight: lighter; 
+    text-align: center;
+    letter-spacing: 3px; /* spaces out the letters in the text content */
+}
+
+/* product.html */
+
+h1 {
+    font: normal normal bold 19px/30px Georgia, serif; /* <h1> font variant, size family set */
+    background-color: rgb(228, 220, 210);
+    margin: 10px 20% ;
+    color: rgb(83, 81, 81);
+    text-align: center;
+}
+#aside {
+    width: 25%;
+    margin-right: 20%;
+    margin-top: 2%;
+    float: right;
+    padding : 10px; 
+    border-style: double ;
+    border-color: rgb(235, 205, 185);
+    border-width: 4px;
+  }
+  /* products images enhancement */
+.bike {
+    width: 50%;
+    height: auto;
+    transition: width 0.5s; /* added width because it shows the transition smoothly */
+}
+.bike:hover {
+    width: 55%; 
+}
+  /* products images enhancement ends*/
+
+  #tagline {
+    text-align: center;
+    background-color: rgb(182, 171, 158);
+    margin: 0 20% ;
+}
+.section1, .section2, .section3 {
+    margin: 2% 20%;
+}
+
+h3 {
+    text-decoration: underline;
+}
+th, td {
+    background-color:#8a706b; /* table cell background hex requirement for about.html */ 
+    color: white;
+    padding-right: 20px ;
+    padding-left: 20px;
+}
+.source { /* references are hyperlinked so this features allows user to spot it */ 
+    color: brown;
+    text-decoration: underline;
+}
+
+
+     /* enquiry.html */
+.enquiry_form {
+    color: rgb(105, 91, 91);
+    margin: 0 20% ;
+}
+     /* about.html */
+
+
+figure { /* picture of me styling */
+    float: right;
+    margin-right: 10%;
+    border: double rgb(167, 153, 153);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+     /* styling of definition list */ 
+dl {    
+    float: left;
+    margin-left: 10%;
+    border: double rgb(167, 153, 153);
+    padding: 20px;
+    font-size: 15px;
+    width: 40%;
+}
+dl dt {
+    width: 25%;
+    float: left;
+    font-weight: bold;
+    color: rgb(83, 81, 81);
+  }
+  /* use of psedo class */
+dt::after {
+    content: ":"; 
+}
+           /* enhances the appearance of dd */
+dl dd {
+    width: 75%; /* to adjust the postion of the text in dd */
+    float: right;
+    margin-left: 0%; 
+    padding-right: 2%;
+  }
+   /* timetable of my classes */
+.timetable {
+    margin: 40% 20% 5% 20%; /* to make the timetable below the figure and definition list */
+}
+
+/* enahancement.html */
+.enhancement {
+    margin: 10% 20%;
+    word-spacing: 2px;
+    background-color: rgb(240, 234, 224);
+}
+
+
+
+
+
